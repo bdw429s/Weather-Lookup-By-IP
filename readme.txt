@@ -1,0 +1,15 @@
+8/25/2014
+
+This is a ColdBox Module that will retrieve basic weather information for you based on your user's IP address using the API available at http://openweathermap.org/current
+
+<cfset data = getModel( 'Weather@Weather' ).getWeather()>
+
+Drop the module inside your modules directory and access it via getModel("Weather@Weather").
+
+This module depends on geolocation-lookup-by-ip which will automatically be installed if you  use CommandBox to isntall this module.
+
+This code comes with no warranties, promises, or hot fudge sundaes.  It is known to the state of California to cause cancer.
+
+Brad Wood
+- brad@bradwood.com
+- http://www.codersrevolution.com
