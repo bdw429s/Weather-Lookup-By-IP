@@ -1,6 +1,6 @@
 {
 	"name" 		: "Weather By IP",
-	"author" 	: "Brad Wood <brad@codersrevolution.com.com",
+	"author" 	: "Brad Wood <brad@codersrevolution.com",
 	"version"	: "1.0.0",
 	"slug"		: "weather-lookup-by-ip",
 	"shortDescription" : "Look up local weather by IP address.",
