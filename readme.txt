@@ -6,7 +6,7 @@ This is a ColdBox Module that will retrieve basic weather information for you ba
 
 Drop the module inside your modules directory and access it via getModel("Weather@Weather").
 
-This module depends on geolocation-lookup-by-ip which will automatically be installed if you  use CommandBox to isntall this module.
+This module depends on geolocation-lookup-by-ip which will automatically be installed if you  use CommandBox to install this module.
 
 This code comes with no warranties, promises, or hot fudge sundaes.  It is known to the state of California to cause cancer.
 

@@ -11,8 +11,16 @@ component {
 	function configure(){
 		
   		settings = {
+  			APPID = ''
   		};
 		
+		// Look for module setting overrides in parent app and override them.
+		var coldBoxSettings = controller.getSettingStructure();
+		if( structKeyExists( coldBoxSettings, 'weather-lookup-by-ip' ) 
+			&& structKeyExists( coldBoxSettings[ 'weather-lookup-by-ip' ], 'settings' ) ) {
+			structAppend( settings, coldBoxSettings[ 'weather-lookup-by-ip' ][ 'settings' ], true );
+		}
+				
 	}
 
 }
